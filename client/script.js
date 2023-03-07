@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
   
   // fetch data from server -> bot's response
   
-  const response = await fetch('https://brainiac-ai-xjqh.onrender.com/', {
+  const response = await fetch('https://brainiac-ai-xjqh.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
